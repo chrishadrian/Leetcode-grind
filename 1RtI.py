@@ -25,7 +25,7 @@ class Solution:
 # class Solution:
 #     def romanToInt(self, s: str) -> int:
 #         maps = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C':100, 'D':500, 'M': 1000}
-#         pre = None
+#         pre = 0
 #         sums = 0
 #         for i in s:
 #             if pre and pre < maps[i]:
@@ -35,3 +35,9 @@ class Solution:
 #                 sums += maps[i]
 #                 pre = maps[i]
 #         return sums
+
+
+# Objectives learned:
+# Recalled split and join built-in function
+# Recalled temporary variable to store prev value
+# Learned dictionary in python (map in this context)
