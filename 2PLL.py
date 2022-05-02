@@ -44,4 +44,7 @@ class Solution:
 #             head = head.next
 #         return palin==palin[::-1]
 
-
+# Reflection:
+# - Recall tortoise and hare algorithm and reversed singly linked list algorithm
+# - Understand deeper about pointers in python3
+# - Get humbled
