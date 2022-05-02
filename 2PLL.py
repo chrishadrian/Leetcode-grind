@@ -47,4 +47,5 @@ class Solution:
 # Reflection:
 # - Recall tortoise and hare algorithm and reversed singly linked list algorithm
 # - Understand deeper about pointers in python3
+# - Understand how to iterate list reversedly --> reversed(list) or if using index use reversed(range(start, end))
 # - Get humbled
