@@ -33,4 +33,5 @@ class Solution:
 
 # Lesson learned:
 # - Learned python built-in function: list(), remove(), replace(), pop(), in
-# - We don't need to convert string to list of char because it'd take more memory and runtime, and string is already a list of char
+# - We don't need to convert string to list of char because it'd take more memory, and string is already a list of char
+# - You just need to iterate through the list that we want to check ("ransomNote" in this case), don't need to iterate the whole magazine which would take slower runtime
