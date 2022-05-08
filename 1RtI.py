@@ -21,7 +21,7 @@ class Solution:
 # Memory Usage: 14 MB, less than 31.95% of Python3 online submissions for Roman to Integer.
 
 # Reflection:
-# This is my first LeetCode problem. My approach wasn't really effective because I have to cover the base cases with a lot of if statements. Here is another solution from the problem's discussion that I think has a better implementation (https://leetcode.com/problems/roman-to-integer/discuss/1551160/Python3):
+# This is my first LeetCode problem. My approach wasn't really effective because I had to cover the base cases with a lot of if statements. Here is another solution from the problem's discussion that I think has a better implementation (https://leetcode.com/problems/roman-to-integer/discuss/1551160/Python3):
 # class Solution:
 #     def romanToInt(self, s: str) -> int:
 #         maps = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C':100, 'D':500, 'M': 1000}
