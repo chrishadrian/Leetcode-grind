@@ -7,7 +7,7 @@ class Solution:
 
 
             if (num % 2 == 0):
-                return countSteps(num//2, 1+steps   )
+                return countSteps(num//2, 1+steps)
             else:
                 return countSteps(num-1, steps+=1)
                 
