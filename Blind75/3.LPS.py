@@ -5,6 +5,7 @@ class Solution:
         n = len(s)
         start = 0
         while i < n:
+            # case even
             l = i
             r = i+1
             while l>= 0 and r<n and s[l] == s[r]:
@@ -13,6 +14,8 @@ class Solution:
                     start = l
                 l-=1
                 r+=1
+
+            # case odd
             l = i-1
             r = i+1
             while l>= 0 and r<n and s[l] == s[r]:
