@@ -11,3 +11,10 @@
 8. Richest Customer Wealth (https://leetcode.com/problems/richest-customer-wealth/)
 
 ### Blind 75 (https://leetcode.com/list/9k7sy4em/)
+1. Two Sum (https://leetcode.com/problems/two-sum)
+2. Longest Substring Without Repeating Characters (https://leetcode.com/problems/longest-substring-without-repeating-characters)
+3. Longest Palindromic Substring(https://leetcode.com/problems/longest-palindromic-substring)
+4. Container With Most Water (https://leetcode.com/problems/container-with-most-water)
+5. 3Sum (https://leetcode.com/problems/3sum)
+6. Remove Nth Node From End of List (https://leetcode.com/problems/remove-nth-node-from-end-of-list)
+7. Valid Parentheses (https://leetcode.com/problems/valid-parentheses/)
