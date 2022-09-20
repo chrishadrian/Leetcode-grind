@@ -17,3 +17,4 @@
 4. Container With Most Water (https://leetcode.com/problems/container-with-most-water)
 5. 3Sum (https://leetcode.com/problems/3sum)
 6. Remove Nth Node From End of List (https://leetcode.com/problems/remove-nth-node-from-end-of-list)
+7. Valid Parentheses (https://leetcode.com/problems/valid-parentheses/)
