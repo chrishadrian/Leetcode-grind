@@ -21,13 +21,10 @@ class Solution:
                 count += 1
                 arr.append(c)
             else:
-                if len(arr) == 0:
+                if len(arr) == 0 or (arr.pop() != maps[c]):
                     return False
                 else:
-                    if (arr.pop() != maps[c]):
-                        return False
-                    else:
-                        count -= 1
+                    count -= 1
             
         return (count == 0)
         
