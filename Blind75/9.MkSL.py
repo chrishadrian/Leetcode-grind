@@ -42,3 +42,4 @@ class Solution:
         return dummy.next
 
 # Can't really solve it by myself. Turns out I just need to use a helper function MergeTwoLists and do a merge sort algorithm. Not to mention the edge cases too.
+# Or you can also use minHeap to find the minimum among the linkedlists.val. Don't forget to include the index when inserting it to the minHeap
