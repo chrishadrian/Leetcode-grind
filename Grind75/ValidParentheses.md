@@ -1,3 +1,12 @@
+# Valid Parentheses
+
+Problem can be found in [here](https://leetcode.com/problems/valid-parentheses)!
+
+```python
+
+### [Solution](): Stack (FILO)
+
+```python
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
@@ -14,7 +23,10 @@ class Solution:
                     stack.pop()
         
         return not stack
-    
-# re-learn about stack and queue. It was actually a really easy problem when you notice that it's a stack data structure (FILO).
-# prioritize left bracket first, put it into the stack. if it's not the opening brackets, then deal with the edge cases there. as long as it's valid, just remove the last index in the stac
-# but if the stack is empty (which means the closing bracket comes first), return false. same case when the closing bracket didn't match the last index in the stack.
+```
+
+Time Complexity: O(n), Space Complexity: O(n), where n is the length of `nums`
+
+### Learning Keys
+- Stack (FILO)
+- Analyze when the problem starts (right brackets)

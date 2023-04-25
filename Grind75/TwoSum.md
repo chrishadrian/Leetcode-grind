@@ -1,5 +1,12 @@
-# https://leetcode.com/problems/two-sum/
+# Two Sum
 
+Problem can be found in [here](https://leetcode.com/problems/two-sum/)!
+
+```python
+
+### [Solution](): Dictionary (Hash Map)
+
+```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         dicts = {}
@@ -12,3 +19,10 @@ class Solution:
                 return [dicts[diff], i]
             else:
                 dicts[num] = i
+
+```
+
+Time Complexity: O(n), Space Complexity: O(n), where n is the length of `nums`
+
+### Learning Keys
+- dictionary
