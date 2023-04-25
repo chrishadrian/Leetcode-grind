@@ -25,7 +25,7 @@ class Solution:
         return not stack
 ```
 
-Time Complexity: O(n), Space Complexity: O(n), where n is the length of `nums`
+Time Complexity: O(n), Space Complexity: O(n), where n is the length of input string `s`
 
 ### Learning Keys
 - Stack (FILO)
