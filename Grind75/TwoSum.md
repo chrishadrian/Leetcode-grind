@@ -25,4 +25,4 @@ class Solution:
 Time Complexity: O(n), Space Complexity: O(n), where n is the length of `nums`
 
 ### Learning Keys
-- dictionary
+- Dictionary (Hash Map)

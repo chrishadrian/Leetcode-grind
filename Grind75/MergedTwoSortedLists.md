@@ -34,6 +34,6 @@ class Solution:
 Time Complexity: O(n+m), Space Complexity: O(1), where n and m are the length of list1 and list2, respectively.
 
 ### Learning Keys
-- curr pointer
-- dummy object
-- if else shorthand in Python
+- Curr pointer
+- Dummy object
+- If else shorthand in Python
