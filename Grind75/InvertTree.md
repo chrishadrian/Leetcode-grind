@@ -2,7 +2,6 @@
 
 Problem can be found in [here](https://leetcode.com/problems/invert-binary-tree/)!
 
-### [Solution](): Recursion
 
 ```python
 # Definition for a binary tree node.
@@ -11,7 +10,11 @@ Problem can be found in [here](https://leetcode.com/problems/invert-binary-tree/
 #         self.val = val
 #         self.left = left
 #         self.right = right
+```
 
+### [Solution](1): Recursion
+
+```python
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         if not root:
@@ -27,7 +30,16 @@ class Solution:
         root.right = temp
 
         return root
+```
 
+### [Solution](2): Recursion
+
+```python
+class Solution:
+    def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
+        if root:
+            root.left, root.right = self.invertTree(root.right), self.invertTree(root.left)
+        return root
 ```
 
 Time Complexity: O(n), Space Complexity: O(h), where h is the height of the binary tree
