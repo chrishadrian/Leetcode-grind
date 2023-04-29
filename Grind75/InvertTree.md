@@ -31,6 +31,9 @@ class Solution:
 
         return root
 ```
+Time Complexity: O(n), Space Complexity: O(h), where h is the height of the binary tree
+
+
 
 ### [Solution](2): Recursion
 
@@ -41,7 +44,6 @@ class Solution:
             root.left, root.right = self.invertTree(root.right), self.invertTree(root.left)
         return root
 ```
-
 Time Complexity: O(n), Space Complexity: O(h), where h is the height of the binary tree
 
 ### Learning Keys
