@@ -1,8 +1,19 @@
+# Is Anagram
+
+Problem can be found in [here](https://leetcode.com/problems/valid-anagram))!
+
+### [Solution](1): Sorted function
+
+```python
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         return sorted(t) == sorted(s)
-        
+```
 
+Time Complexity: O(nlogn), Space Complexity: O(1)
+
+### [Solution](2): Hash Map
+```python
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         memo = {}
@@ -23,5 +34,9 @@ class Solution:
                 return False
         
         return True        
+```
 
-
+### Learning Keys
+- Try Catch in Python
+- Sorted function
+- Key Values Hash Map
