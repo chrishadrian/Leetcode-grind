@@ -47,5 +47,8 @@ class Solution:
 
 Time Complexity: O(logn), Space Complexity: O(1)
 
+### Learning Keys
+- Some problems can be solved iteratively or recursively
+- Divide and Conquer (left-mid-right)
 
 
